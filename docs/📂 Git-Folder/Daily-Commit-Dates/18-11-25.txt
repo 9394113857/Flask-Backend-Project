@@ -1,0 +1,12 @@
+git commit -m "Initial Commit: Base Flask Backend Setup
+
+1. **Project Initialization**:
+   - Newly created Flask backend project structure.
+   - Basic Flask app initialized with default routes and configuration.
+   - Application successfully runs using 'flask run' with no custom logic added yet.
+
+2. **Branch Purpose**:
+   - This is the first feature branch (feature/initial-flask-setup).
+   - Will serve as the starting point for future API modules, blueprints, services, and database integrations before merging into main.
+
+Date: $(date +\"%Y-%m-%d %H:%M:%S\")"

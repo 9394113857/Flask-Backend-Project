@@ -1,0 +1,11 @@
+# ✅ Go to your Angular project
+cd your-flask-project-folder
+
+# ✅ Create & switch to the new feature branch
+git checkout -b feature/initial-flask-setup
+
+# ✅ Stage all new files
+git add .
+
+# ✅ Push current branch to origin
+git push -u origin feature/initial-flask-setup
