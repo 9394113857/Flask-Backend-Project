@@ -1,0 +1,31 @@
+git commit -m "Initial Commit: Flask Backend Setup Completed (CORS + SQLite) on branch feature/initial-flask-setup
+
+1. **Flask Project Initialization Completed**:
+   - Flask backend successfully created and configured under branch: feature/initial-flask-setup.
+   - Installed and verified flask, flask-cors, flask_sqlalchemy, flask_marshmallow, marshmallow-sqlalchemy.
+   - Configured app.py with CORS enabled for all frontend systems (Angular, React, Vue, etc.).
+   - Integrated SQLite database with SQLAlchemy ORM and Marshmallow schemas.
+
+2. **User CRUD Module Implemented**:
+   - Created User model with id, name, email fields.
+   - Added full CRUD API routes: Create, Read All, Read By ID, Update, Delete.
+   - JSON request validation and proper HTTP responses implemented.
+   - Tested routes using Postman and cURL; backend functioning correctly.
+
+3. **Database Setup Completed**:
+   - SQLite initialized with auto table creation.
+   - Added seed test records for API validation.
+   - Confirmed DB integration working without errors.
+
+4. **Pending: Angular Integration Testing**:
+   - Flask backend is fully functional and ready for frontend consumption.
+   - Next step: Connect Angular service (HttpClient) to Flask CRUD endpoints.
+   - Angular table UI + forms integration still pending for this commit.
+
+5. **Next Steps (Upcoming Enhancements)**:
+   - Add JWT-based authentication module.
+   - Add pagination & filtering for list API.
+   - Add Flask-Blueprint modular structure for scalable multi-module backend.
+   - Prepare for merging into main after Angular integration verification.
+
+Date: $(date +\"%Y-%m-%d %H:%M:%S\")"
